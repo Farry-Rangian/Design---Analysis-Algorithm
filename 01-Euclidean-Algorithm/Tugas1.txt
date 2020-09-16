@@ -1,0 +1,27 @@
+% Euclid's algorithm
+#include <cstdio>
+int main(int argc, char* argv[])
+{
+    int m=60,n=24,r;
+    while(n!=0){
+    r=m%n;
+    m=n;
+    n=r;
+    }
+printf("gcd (fpb) = %d",m);
+}
+
+/* Euclid's algorithm */
+#include <iostream>
+using namespace std;
+int main()
+{
+    int m=10,n=24,r;
+    while(n!=0){
+    r=m%n;
+    m=n;
+    n=r;
+    }
+   cout << "gcd (fpb) = " << m << endl; 
+return 0;
+}
