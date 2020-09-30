@@ -1,0 +1,91 @@
+//Minimum Case
+#include <stdio.h>
+
+int main()
+{
+    int n,i,K;
+    n = 5;
+    K = 9;
+    int A[n] = {9,4,6,10,12};
+    
+    A[n]=K;
+    i=0;
+    while (A[i]!=K){
+        i=i+1;
+    }
+    
+    if(i<n){
+        printf("Angka yang dicari %d\n",K);
+        printf("Array in terdapat angka %d ",A[i]);
+         return(i);
+    }
+    else{
+        printf("input angka yang dicari %d\n",K);
+        printf("%d",-1);
+    }
+    
+    return 0;
+}
+
+
+
+//Average Case
+#include <stdio.h>
+
+int main()
+{
+    int n,i,K;
+    n = 5;
+    K = 6;
+    int A[n] = {9,4,6,10,12};
+    
+    A[n]=K;
+    i=0;
+    while (A[i]!=K){
+        i=i+1;
+    }
+    
+    if(i<n){
+        printf("Angka yang dicari %d\n",K);
+        printf("Array in terdapat angka %d ",A[i]);
+         return(i);
+    }
+    else{
+        printf("input angka yang dicari %d\n",K);
+        printf("%d",-1);
+    }
+    
+    return 0;
+}
+
+
+
+
+//Worst Case
+#include <stdio.h>
+
+int main()
+{
+    int n,i,K;
+    n = 5;
+    K = 12;
+    int A[n] = {9,4,6,10,12};
+    
+    A[n]=K;
+    i=0;
+    while (A[i]!=K){
+        i=i+1;
+    }
+    
+    if(i<n){
+        printf("Angka yang dicari %d\n",K);
+        printf("Array in terdapat angka %d ",A[i]);
+         return(i);
+    }
+    else{
+        printf("input angka yang dicari %d\n",K);
+        printf("%d",-1);
+    }
+    
+    return 0;
+}
